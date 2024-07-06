@@ -122,4 +122,5 @@ public class EmployeeServiceImpl  extends ServiceImpl<EmployeeMapper,Employee>  
         updateWrapper.eq("id", employee.getId()); // 假设以id为条件
         employeeMapper.update(employee,updateWrapper);
     }
+
 }
